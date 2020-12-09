@@ -32,7 +32,7 @@ section{
     height: 330px;
     /* background: #d5d5d5; */
     display: flex;
-    background: url("../images/migrant-worker-img.jpg") no-repeat;
+    background: url("images/migrant-worker-img.jpg") no-repeat;
     
   }
   
@@ -151,7 +151,7 @@ section{
 /* --------------------- Events ----------------*/
 
 .event-banner{
-  background: url('../images/event-banner-bcg-img.jpg');
+  background: url('images/event-banner-bcg-img.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
