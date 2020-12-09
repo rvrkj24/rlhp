@@ -151,7 +151,7 @@ section{
 /* --------------------- Events ----------------*/
 
 .event-banner{
-  background: url('images/event-banner-bcg-img.jpg');
+  background: url('images/event-bcg-img.jpeg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -207,4 +207,34 @@ section{
 
 .halfbox-pad{
   padding: 55px;
+}
+
+/* --- Donation page ---- */
+
+.donate-btn {
+  background: #fff;
+  padding: 8px 24px !important;
+  text-align: center;
+  text-transform: uppercase;
+  color: #80a23a!important;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 50px;
+  font-size: 13px;
+  letter-spacing: 0.4px;
+}
+
+.national-btn{
+  background: #80a23a!important;
+  padding: 8px 24px !important;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff!important;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 50px;
+  font-size: 13px;
+  letter-spacing: 0.4px;
+}
+
+.donation-button{
+  width: 100px;
 }
