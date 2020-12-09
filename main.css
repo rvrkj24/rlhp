@@ -1,0 +1,202 @@
+/* *{
+    box-sizing: border-box;
+} */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+  
+}
+.rlhp-bcg{
+  background-color: #d5d5d5;
+}
+
+.montserrat-medium{
+    font-family: "Montserrat-Medium", sans-serif;
+}
+
+section{
+  position: relative;
+  width: 100%;
+  height: 600px;
+  
+
+}
+
+.wraper{
+    position: relative;                   
+    width: 100%;
+    height: 330px;
+    /* background: #d5d5d5; */
+    display: flex;
+    background: url(/images/migrant-worker-img.jpg) no-repeat;
+    
+  }
+  
+  .left{
+    width: calc( 50% - 40px) ;
+    height: 100%;
+    background: #cbcbcb;
+  }
+  
+  .right{
+    width: calc( 50% + 40px);
+    height: 100%;
+    box-sizing: border-box;
+    border-left: 80px solid #cbcbcb;
+    border-bottom: 330px solid transparent;
+    float: right;
+    
+    
+  }
+  
+  .content{
+    color: #000;
+    font-size: 15px;
+    padding: 30px;
+  }
+
+/*
+  .HalfBlock.blue, .HalfBlock.blue .halfText, .HalfBlock.blue .halfText:after {
+    background: #0079ba;
+}
+
+.HalfBlock {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  box-shadow: 1px 3px 12px rgba(0,0,0,.2);
+}
+
+
+.HalfBlock.left .halfText {
+    left: auto;
+    right: 0;
+}
+
+
+
+.HalfBlock .halfText {
+    width: 44%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+
+.HalfBlock .halfText {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  color: #fff;
+  padding: 40px;
+}
+
+
+.HalfBlock.left .halfImage {
+    float: left;
+}
+
+
+
+.HalfBlock .halfImage {
+    position: relative;
+    float: right;
+    width: 56%;
+    min-width: 600px;
+}
+
+
+.HalfBlock .halfImage {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+*/
+.rlhp-green{
+    color: #8BAF42;
+}
+
+.rlhp-white{
+  color: #fff;
+}
+
+.rlhp-btn {
+  background: #f95951;
+  padding: 8px 24px !important;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff!important;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 50px;
+  font-size: 13px;
+  letter-spacing: 0.4px;
+}
+/* --------------------- Events ----------------*/
+
+.event-banner{
+  background: url('/images/event-banner-bcg-img.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.event-box{
+  max-width: 1366px;
+  margin: 0px auto;
+  /* height: 345px; */
+}
+
+/* .event-box-height{
+  height: 345px;
+} */
+
+.child-labor, .state-seminar{
+  
+  background-color: #80a23a;
+}
+
+/* .child-labor:after{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-top: 0px solid #ffffff;
+  border-right: 2px solid #ffffff;
+  border-bottom: 2px solid #ffffff;
+  border-left: 0px solid #ffffff;
+  top:100%;
+  left: 50%;
+  margin-left: -25px;
+  content: '';
+  transform: rotate(45deg);
+  margin-top: -25px;
+  background: green;
+} */
+.child-helpline{
+  
+  background-color: #da3054;;
+}
+.womens-day{
+  
+  background-color: #0094ab;
+}
+
+.halfbox-pad{
+  padding: 55px;
+}
