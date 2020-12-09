@@ -172,6 +172,14 @@ section{
   background-color: #80a23a;
 }
 
+.campaign-circle{
+  background-image: url(images/Ellipse.svg);
+  background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+  
+}
+
 /* .child-labor:after{
   position: absolute;
   width: 50px;
@@ -186,8 +194,8 @@ section{
   content: '';
   transform: rotate(45deg);
   margin-top: -25px;
-  background: green;
-} */
+  background: #80a23a;
+}  */
 .child-helpline{
   
   background-color: #da3054;;
