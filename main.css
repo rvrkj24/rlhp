@@ -150,7 +150,6 @@ section{
   background: #f95951;
   padding: 8px 24px !important;
   text-align: center;
-  text-transform: uppercase;
   color: #fff!important;
   box-shadow: 0 0 20px #eee;
   border-radius: 50px;
@@ -275,9 +274,9 @@ section{
  background-color: #f9f8f8;
 
 }
-.header-donate-btn{
+/* .header-donate-btn{
   float: right;
-}
+} */
 
 
 /* -------------- Footer-------------------- */
