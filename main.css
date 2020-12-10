@@ -10,6 +10,10 @@ body{
     font-family: "Montserrat", sans-serif;
   
 }
+
+a{
+  text-decoration: none!important;
+}
 .rlhp-bcg{
   background-color: #d5d5d5;
 }
@@ -132,7 +136,12 @@ section{
 .rlhp-green{
     color: #8BAF42;
 }
-
+.rlhp-bcg-green{
+  background-color: #80a23a;
+}
+.halfbox-donate-btn-height{
+  height: 100%;
+}
 .rlhp-white{
   color: #fff;
 }
@@ -212,29 +221,53 @@ section{
 /* --- Donation page ---- */
 
 .donate-btn {
-  background: #fff;
+  background: #fff!important;
   padding: 8px 24px !important;
   text-align: center;
-  text-transform: uppercase;
   color: #80a23a!important;
-  box-shadow: 0 0 20px #eee;
-  border-radius: 50px;
-  font-size: 13px;
+  box-shadow: 0 0 50px #eee;
+  border-radius: 17px;
+  font-size: 15px;
   letter-spacing: 0.4px;
+  
 }
+
+.donate-btn:hover{
+  color: #80a23a!important;
+}
+
 
 .national-btn{
   background: #80a23a!important;
   padding: 8px 24px !important;
   text-align: center;
-  text-transform: uppercase;
   color: #fff!important;
-  box-shadow: 0 0 20px #eee;
-  border-radius: 50px;
-  font-size: 13px;
+  box-shadow: 0 0 50px #eee;
+  border-radius: 17px;
+  font-size: 15px;
   letter-spacing: 0.4px;
 }
-
+.halfbox-donate-btn{
+  background: #80a23a!important;
+  padding: 8px 24px !important;
+  text-align: center;
+  color: #fff!important;
+  border :1px solid #fff;
+  border-radius: 50px;
+  font-size: 15px;
+  letter-spacing: 0.4px;
+}
+.vl {
+  border-left: 2px solid #80a23a;
+  height: 50px;
+  margin-left: 50%;
+}
+.vll {
+  border-left: 2px solid #80a23a;
+  height: 25px;
+  margin-left: 50%;
+}
 .donation-button{
-  width: 100px;
+  width: 75%;
+  margin: 0 auto;
 }
