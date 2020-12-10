@@ -275,3 +275,43 @@ section{
  background-color: #f9f8f8;
 
 }
+.header-donate-btn{
+  float: right;
+}
+
+
+/* -------------- Footer-------------------- */
+
+.rlhp-footer-menucol{margin:30px 40px 0px;}
+.hfn-social-info{margin:30px 15px 0px;}
+.rlhp-footer-menucol *{color:#ccc;}
+.footer-coltitle{padding: 10px 0px; margin-bottom: 20px; font-size: 20px; color: #fff;}
+.rlhp-footer-menucol a:hover, .rlhp-footer-menucol a:focus{color:#fff; text-decoration: none;}
+.rlhp-footer-menucol p{margin-bottom: 15px; font-size: 15px;}
+
+#footer{ background: #80a23a; padding-top: 5px; }
+.footer .hfn-social-info .widget-info{color: #ccc;}
+.footer .hfn-social-info .soc-ico{padding-top:10px;}
+.footer .hfn-social-info .soc-ico .assistive-text{display:none;}
+.footer .hfn-social-info .soc-ico a{color:#fff; text-decoration:none; margin: 5px 10px;}
+.footer #bottom-bar{border-top: 1px solid #eee; margin: 30px 15px 0px; display: grid;}
+.footer #bottom-bar .text-left{float: left; color: #ccc; font-size: 13px; padding: 12px 0px; line-height: 1.6;}
+.footer #bottom-bar .text-right{ float: right; }
+.footer #bottom-bar .text-right ul#bottom-menu{display: flex; padding: 6px 0px; list-style: none; float: right; margin:0px;}
+.footer #bottom-bar .text-right ul#bottom-menu a{ font-size: 13px;  color: #ccc;  margin: 0px 10px; text-decoration:none; }
+
+@media (max-width: 767px){
+  .rlhp-footer-menucol{margin:30px 20px 0px;}
+  .footer #bottom-bar .text-left{  text-align: center!important; float: none; }
+  .footer #bottom-bar .text-right{ width: 100%; float: none; text-align: center!important; }
+  .footer #bottom-bar .text-right ul#bottom-menu{ display: inline-flex; text-align: center; float: none; }
+  .essayevent-headerbar .navbar-nav li.nav-item { margin: 0px 5px; }
+  .rules-iconline .iconimg .linedot:before { content: ""; width: 72%; }
+  .essayevent-topic-sec:after{ right: 80px; }
+  
+  .rules-tab .nav-tabs{display: none;}
+  .rules-tab .rules-content .tab-pane .mbtitle {display: block;}
+  .rules-tab .rules-content .tab-pane{display: block; opacity: 1;}
+  .essayevent-headerbar .navbar { padding: 12px 15px; }
+  
+  }
