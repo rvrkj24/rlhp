@@ -232,7 +232,7 @@ section{
   
 }
 
-.donate-btn:hover{
+.donate-btn a:hover{
   color: #80a23a!important;
 }
 
@@ -270,4 +270,8 @@ section{
 .donation-button{
   width: 75%;
   margin: 0 auto;
+}
+.donate-bcg{
+ background-color: #f9f8f8;
+
 }
