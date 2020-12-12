@@ -569,3 +569,25 @@ button.slick-arrow:hover, button.slick-arrow:focus {
   .slick-dotted.slick-slider{
     margin-bottom: 0px;
   }
+
+
+  .resource-box{
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+border-radius: 15px;
+background-color: #ffffff;
+padding: 15px;
+height: 100%;
+  }
+
+  .download-res-btn{
+   
+      background: #80a23a!important;
+      padding: 8px 24px !important;
+      text-align: center;
+      color: #fff!important;
+      box-shadow: 0 0 50px #eee;
+      border-radius: 17px;
+      font-size: 15px 25px;
+      letter-spacing: 0.4px;
+      width: 100%;
+  }
