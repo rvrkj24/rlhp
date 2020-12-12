@@ -14,6 +14,7 @@ body{
 a{
   text-decoration: none!important;
 }
+
 .rlhp-bcg{
   background-color: #d5d5d5;
 }
@@ -148,6 +149,12 @@ section{
 .rlhp-bcg-green{
   background-color: #80a23a;
 }
+.rlhp-bcg-pink{
+background-color: #da3054;
+}
+.rlhp-bcg-blue{
+  background-color: #0094ab;
+  }
 .halfbox-donate-btn-height{
   height: 100%;
 }
@@ -313,9 +320,9 @@ section{
 
 @media only screen and (max-width: 1024px) {
  
-  .homepage-banner-slider{
+  /* .homepage-banner-slider{
     max-width: 1200px;
-  }
+  } */
 }
 /*
 @media only screen and (max-width: 454px) {
@@ -419,7 +426,7 @@ button.slick-arrow:hover, button.slick-arrow:focus {
 
   .banner1{
     background: url('images/homepage-banner-1-img.png');
-    background-position: relative;
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     height: 500px;
@@ -427,7 +434,7 @@ button.slick-arrow:hover, button.slick-arrow:focus {
   }
   .banner2{
     background: url('images/homepage-banner-2-img.png');
-    background-position: relative;
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     height: 500px;
@@ -435,7 +442,7 @@ button.slick-arrow:hover, button.slick-arrow:focus {
   }
   .banner3{
     background: url('images/homepage-banner-3-img.png');
-    background-position: relative;
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     height: 500px;
@@ -591,3 +598,26 @@ height: 100%;
       letter-spacing: 0.4px;
       width: 100%;
   }
+  .involve-banner{
+    background: url('images/involve-banner-img.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px; 
+  }
+
+  .involve-box{
+    padding: 20px;
+    height: 250px;
+  }
+
+.involve-btn{
+  background: #fff!important;
+  padding: 8px 24px !important;
+  text-align: center;
+  color: #80a23a!important;
+  
+  border-radius: 17px;
+  font-size: 15px;
+  letter-spacing: 0.4px;
+}
