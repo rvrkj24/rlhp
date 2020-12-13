@@ -166,6 +166,16 @@ background-color: #da3054;
   color: #fff;
 }
 
+.light-pink-bcg{
+  background-color: rgba(218,48,84,0.1);
+}
+.light-blue-bcg{
+  background-color: rgba(0,148,171, 0.1);
+}
+.light-green-bcg{
+ background-color: rgba(139,175,66, 0.13); 
+}
+
 .rlhp-btn {
   background: #f95951;
   padding: 8px 24px !important;
@@ -625,6 +635,13 @@ height: 100%;
   }
   .involve-banner{
     background: url('images/involve-banner-img.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%; 
+  }
+  .impact-banner{
+    background: url('images/child-helpline-day-img.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
