@@ -19,6 +19,10 @@ a{
   background-color: #d5d5d5;
 }
 
+.rlhp-bcg-red{
+  background-color: #e02b2b;
+}
+
 .montserrat-medium{
     font-family: "Montserrat-Medium", sans-serif;
 }
@@ -268,6 +272,27 @@ background-color: #da3054;
   padding: 8px 24px !important;
   text-align: center;
   color: #fff!important;
+  box-shadow: 0 0 50px #eee;
+  border-radius: 17px;
+  font-size: 15px;
+  letter-spacing: 0.4px;
+}
+.pink-full-btn{
+  background: #da3054;
+  padding: 8px 10px !important;
+  text-align: center;
+  color: #fff!important;
+  box-shadow: 0 0 50px #eee;
+  border-radius: 17px;
+  font-size: 15px;
+  letter-spacing: 0.4px;
+}
+.pink-half-btn{
+  background: #fff!important;
+  padding: 8px 10px !important;
+  text-align: center;
+  border :1px solid #da3054;
+  color: #da3054;
   box-shadow: 0 0 50px #eee;
   border-radius: 17px;
   font-size: 15px;
@@ -603,12 +628,12 @@ height: 100%;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 500px; 
+    height: 100%; 
   }
 
   .involve-box{
     padding: 20px;
-    height: 250px;
+    height: 175px;
   }
 
 .involve-btn{
@@ -620,4 +645,8 @@ height: 100%;
   border-radius: 17px;
   font-size: 15px;
   letter-spacing: 0.4px;
+}
+
+.odd-halfblock-box{
+  height: 200px;
 }
