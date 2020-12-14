@@ -354,6 +354,9 @@ background-color: #da3054;
   .banner-text{
     padding-top: 100px;
   } 
+  .for-mob{
+    display: none;
+  }
  
 }
 
@@ -367,6 +370,9 @@ background-color: #da3054;
   }
   .mob-circle{
     padding: 10px 25%;
+  }
+  .for-lappy{
+    display: none;
   }
 }
 /*
