@@ -166,6 +166,10 @@ background-color: #da3054;
   color: #fff;
 }
 
+.rlhp-navyblue{
+  color: #174457;
+}
+
 .light-pink-bcg{
   background-color: rgba(218,48,84,0.1);
 }
@@ -358,6 +362,12 @@ background-color: #da3054;
   /* .homepage-banner-slider{
     max-width: 1200px;
   } */
+  .women-circle-hz{
+    display: none;
+  }
+  .mob-circle{
+    padding: 10px 25%;
+  }
 }
 /*
 @media only screen and (max-width: 454px) {
@@ -510,6 +520,12 @@ button.slick-arrow:hover, button.slick-arrow:focus {
     border-bottom: 2px solid #0094ab;
     width: 35%;
     margin: 0 auto;
+  }
+  .hlnb {
+    border-bottom: 2px solid #174457;
+    width: 35%;
+    margin: 0 auto;
+    
   }
   .women-bcg{
     background-color: #da3054;
@@ -666,4 +682,110 @@ height: 100%;
 
 .odd-halfblock-box{
   height: 200px;
+}
+
+.impact-three-img1{
+  background: url('images/child-rights-club-img.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+.impact-three-img2{
+  background: url('images/a-call-for-hope-img.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+.impact-three-img3{
+  background: url('images/childline-img.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+
+.impact-three-child1{
+  background: url('images/road-towards-education-img.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  border-top: 4px solid #0094ab;
+}
+
+.impact-three-child2{
+  background: url('images/child-rights-club-img.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  border-top: 4px solid #0094ab;
+}
+
+.impact-three-child3{
+  background: url('images/helping-mankind-img.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  border-top: 4px solid #0094ab;
+}
+
+.impact-three-women1{
+  background: url('images/domestic-worker-img.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  border-top: 4px solid #da3054;
+}
+
+.impact-three-women2{
+  background: url('images/rural-women-journey-img.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  border-top: 4px solid #da3054;
+}
+
+.impact-three-people1{
+  background: url('images/power-of-awareness-img.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  border-top: 4px solid #80a23a;
+}
+
+.impact-three-people2{
+  background: url('images/unemployed-to-facilitator-img.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  border-top: 4px solid #80a23a;
+}
+
+.suplement{
+  background: url('images/Supplementary-Education-Centres-img.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+
+.health-clinic{
+  background: url('images/health-clinic-img.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+
+.impact-hover:hover{
+  background-color: #555555;
+opacity: 0.75;
 }
