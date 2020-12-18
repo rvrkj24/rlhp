@@ -3,7 +3,7 @@
 } */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
 
 
 html,body
@@ -22,10 +22,8 @@ html,body
 }
 
 body{
-  
-    font-family: "Montserrat", sans-serif;
-  
-}
+      font-family: "Montserrat", sans-serif;
+  }
 
 a{
   text-decoration: none!important;
@@ -33,9 +31,9 @@ a{
 
 .uline{
 text-decoration: underline;
-
 color: #174457!important;
 }
+
 .slick-next{
   right: -12px;
 }
@@ -49,10 +47,10 @@ color: #174457!important;
 }
 
 
-img {
+/* img {
   max-width: 100%;
   height: auto;
-}
+} */
 
 /* Banner Overlay */
 .image-banner {
@@ -60,6 +58,8 @@ img {
 }
 
 .image-banner img {
+  max-width: 100%;
+  height: auto;
   display: block;
 }
 
@@ -168,77 +168,6 @@ section{
     font-size: 15px;
     padding: 30px;
   }
-
-/*
-  .HalfBlock.blue, .HalfBlock.blue .halfText, .HalfBlock.blue .halfText:after {
-    background: #0079ba;
-}
-
-.HalfBlock {
-  position: relative;
-  overflow: hidden;
-  width: 100%;
-  margin-top: 40px;
-  margin-bottom: 40px;
-  box-shadow: 1px 3px 12px rgba(0,0,0,.2);
-}
-
-
-.HalfBlock.left .halfText {
-    left: auto;
-    right: 0;
-}
-
-
-
-.HalfBlock .halfText {
-    width: 44%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-}
-
-
-.HalfBlock .halfText {
-  position: relative;
-  height: 100%;
-  width: 100%;
-  z-index: 1;
-  color: #fff;
-  padding: 40px;
-}
-
-
-.HalfBlock.left .halfImage {
-    float: left;
-}
-
-
-
-.HalfBlock .halfImage {
-    position: relative;
-    float: right;
-    width: 56%;
-    min-width: 600px;
-}
-
-
-.HalfBlock .halfImage {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-*/
 .rlhp-green{
     color: #8BAF42;
 }
@@ -325,12 +254,10 @@ background-color: #da3054;
 .event-box{
   max-width: 1366px;
   margin: 0px auto;
-  /* height: 345px; */
+  
 }
 
-/* .event-box-height{
-  height: 345px;
-} */
+
 
 .child-labor, .state-seminar{
   
@@ -345,22 +272,6 @@ background-color: #da3054;
   
 }
 
-/* .child-labor:after{
-  position: absolute;
-  width: 50px;
-  height: 50px;
-  border-top: 0px solid #ffffff;
-  border-right: 2px solid #ffffff;
-  border-bottom: 2px solid #ffffff;
-  border-left: 0px solid #ffffff;
-  top:100%;
-  left: 50%;
-  margin-left: -25px;
-  content: '';
-  transform: rotate(45deg);
-  margin-top: -25px;
-  background: #80a23a;
-}  */
 .child-helpline{
   
   background-color: #da3054;;
@@ -453,9 +364,7 @@ background-color: #da3054;
  background-color: #f9f8f8;
 
 }
-/* .header-donate-btn{
-  float: right;
-} */
+
 
 
 /* ------------------ Homepage ------------- */
@@ -478,9 +387,7 @@ background-color: #da3054;
 
 @media only screen and (max-width: 1024px) {
  
-  /* .homepage-banner-slider{
-    max-width: 1200px;
-  } */
+  
   .women-circle-hz{
     display: none;
   }
@@ -491,64 +398,323 @@ background-color: #da3054;
     display: none;
   }
 }
-/*
-@media only screen and (max-width: 454px) {
-.green-banner-1-sec, .green-banner-2-sec, .green-banner-3-sec, .green-banner-4-sec{height:350px; overflow:hidden; }
+
+/* ---------------------- Homepage ---------------- */
+
+.banner1{
+  background: url('images/homepage-banner-1-img.png');
+ background-position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+  height: 500px;
+  
+}
+.banner2{
+  background: url('images/homepage-banner-2-img.png');
+ background-position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+  height: 500px;
+  
+}
+.banner3{
+  background: url('images/homepage-banner-3-img.png');
+  background-position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+  height: 500px;
+  
+}
+.green-border{
+ border-top: 3px solid #80a23a;
+}
+.pink-border{
+ border-top: 3px solid #da3054;
+}
+.blue-border{
+ border-top: 3px solid #0094ab;
 }
 
-.slider-area .slick-slide a{text-decoration: none;}
-.slider-card-image img{
-     height: 450px;
-    object-fit: cover;
+.slick-dots{
+  bottom: 10px!important;
 }
 
-.slider-area .slick-dots li button:before {color: #fff;}
-
-@media only screen and (min-width: 768px) {
-.slider-area .slick-list.draggable{padding: 0px 120px !important;}
+.child-bcg{
+  background-color: #0094ab;
+  display: inline-block;
+  border-radius: 50%;
+  padding: 35px;
+}
+.circle-blue{
+  border: 1px solid #0094ab;
+  border-radius: 50%;
+  display: inline-block;
+  padding: 5px;
 }
 
-.slick-slide img{
-width: 100%;
+.vlb {
+  border-left: 1px solid #0094ab;
+  height: 25px;
+  margin-left: 50%;
 }
-.slider-area .slick-prev{left:50px; z-index: 999;}
-.slider-area .slick-next{right:65px;}
-.slider-area .slick-prev:before,
-.slider-area .slick-next:before {
-color: #fff!important ;
-font-size: 35px;
-opacity: 1;
-width: 100%;
+.hlb {
+  border-bottom: 2px solid #0094ab;
+  width: 35%;
+  margin: 0 auto;
 }
-.slick-slide {
-transition: all ease-in-out 0.3s;
-opacity: 0.5; 
+.hlnb {
+  border-bottom: 2px solid #174457;
+  width: 35%;
+  margin: 0 auto;
+  
 }
-.slick-active{
-opacity: 0.5;
+.women-bcg{
+  background-color: #da3054;
+  display: inline-block;
+  border-radius: 50%;
+  padding: 35px;
 }
-.slick-current{
-opacity: 1; 
+.circle-pink{
+  border: 1px solid #da3054;
+  border-radius: 50%;
+  display: inline-block;
+  padding: 5px;
+}
+.vlp {
+  border-left: 1px solid #da3054;
+  height: 25px;
+  margin-left: 50%;
+}
+.hlp {
+  border-bottom: 2px solid #da3054;
+  width: 35%;
+  margin: 0 auto;
+}
+.families-bcg{
+  background-color: #80a23a;
+  display: inline-block;
+  border-radius: 50%;
+  padding: 35px;
+}
+.circle-green{
+  border: 1px solid #80a23a;
+  border-radius: 50%;
+  display: inline-block;
+  padding: 5px;
+}
+.vlg {
+  border-left: 1px solid #80a23a;
+  height: 25px;
+  margin-left: 50%;
+}
+.hlg {
+  border-bottom: 2px solid #80a23a;
+  width: 35%;
+  margin: 0 auto;
 }
 
-.kanha-img-bcg{background: #fafafa;}
-.slider-area .slick-current.slick-active.slick-center {
-    -webkit-transform: scale(1.00);
-    transform: scale(1.00);
-}
-.slider-area .slick-slide{
-    -webkit-transform: scale(0.8);
-    transform: scale(0.8);
+.hlgr {
+  border-bottom: 2px solid #d5d5d5;
+  width: 35%;
+  margin: 0 auto;
 }
 
-button.slick-arrow:hover, button.slick-arrow:focus {
-    background: none!important;
-    border: none!important;
+
+.feedback-bcg{
+  box-shadow: 0 0 15px 1px rgba(0,0,0,0.07);
+  border-radius: 15px;
+  margin-bottom: 30px;
+  padding: 0px 0px 15px;
+  background-color: #fff;
 }
-.slick-prev button:active, .slick-next button:active  {
- background: none!important;
+
+
+.feedback-color{
+color: #174457;
 }
-*/
+
+.home-btn-bottom{
+     
+padding: 8px 24px !important;
+text-align: center;
+color: #80a23a!important;
+border-radius: 15px;
+font-size: 13px;
+letter-spacing: 0.4px;
+ box-shadow: 0 0 50px #eee;
+
+}
+
+.slick-dotted.slick-slider{
+  margin-bottom: 0px;
+}
+
+
+.resource-box{
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+border-radius: 15px;
+background-color: #ffffff;
+padding: 15px;
+height: 100%;
+}
+
+.download-res-btn{
+ 
+    background: #80a23a!important;
+    padding: 8px 24px !important;
+    text-align: center;
+    color: #fff!important;
+    box-shadow: 0 0 50px #eee;
+    border-radius: 17px;
+    font-size: 15px 25px;
+    letter-spacing: 0.4px;
+    width: 100%;
+}
+.involve-banner{
+  background: url('images/involve-banner-img.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%; 
+}
+.impact-banner{
+  background: url('images/child-helpline-day-img.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%; 
+}
+
+.involve-box{
+  padding: 20px;
+  height: 175px;
+}
+
+.involve-btn{
+background: #fff!important;
+padding: 8px 24px !important;
+text-align: center;
+color: #80a23a!important;
+
+border-radius: 17px;
+font-size: 15px;
+letter-spacing: 0.4px;
+}
+
+.odd-halfblock-box{
+height: 200px;
+}
+
+.impact-three-img1{
+background: url('images/child-rights-club-img.png');
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+height: 100%;
+}
+.impact-three-img2{
+background: url('images/a-call-for-hope-img.png');
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+height: 100%;
+}
+.impact-three-img3{
+background: url('images/childline-img.png');
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+height: 100%;
+}
+
+.impact-three-child1{
+background: url('images/road-towards-education-img.png');
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+height: 100%;
+border-top: 4px solid #0094ab;
+}
+
+.impact-three-child2{
+background: url('images/child-rights-club-img.png');
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+height: 100%;
+border-top: 4px solid #0094ab;
+}
+
+.impact-three-child3{
+background: url('images/helping-mankind-img.png');
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+height: 100%;
+border-top: 4px solid #0094ab;
+}
+
+.impact-three-women1{
+background: url('images/domestic-worker-img.png');
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+height: 100%;
+border-top: 4px solid #da3054;
+}
+
+.impact-three-women2{
+background: url('images/rural-women-journey-img.png');
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+height: 100%;
+border-top: 4px solid #da3054;
+}
+
+.impact-three-people1{
+background: url('images/power-of-awareness-img.png');
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+height: 100%;
+border-top: 4px solid #80a23a;
+}
+
+.impact-three-people2{
+background: url('images/unemployed-to-facilitator-img.png');
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+height: 100%;
+border-top: 4px solid #80a23a;
+}
+
+.suplement{
+background: url('images/Supplementary-Education-Centres-img.png');
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+height: 100%;
+}
+
+.health-clinic{
+background: url('images/health-clinic-img.png');
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+height: 100%;
+}
+
+.impact-hover:hover{
+background-color: #555555;
+opacity: 0.75;
+}
+
+
 
 /* -------------- Footer-------------------- */
 
@@ -570,370 +736,49 @@ button.slick-arrow:hover, button.slick-arrow:focus {
 .footer #bottom-bar .text-right ul#bottom-menu{display: flex; padding: 6px 0px; list-style: none; float: right; margin:0px;}
 .footer #bottom-bar .text-right ul#bottom-menu a{ font-size: 13px;  color: #ccc;  margin: 0px 10px; text-decoration:none; }
 
+
+
 @media (max-width: 767px){
+  
   .rlhp-footer-menucol{margin:30px 20px 0px;}
   .footer #bottom-bar .text-left{  text-align: center!important; float: none; }
   .footer #bottom-bar .text-right{ width: 100%; float: none; text-align: center!important; }
   .footer #bottom-bar .text-right ul#bottom-menu{ display: inline-flex; text-align: center; float: none; }
-  .essayevent-headerbar .navbar-nav li.nav-item { margin: 0px 5px; }
-  .rules-iconline .iconimg .linedot:before { content: ""; width: 72%; }
-  .essayevent-topic-sec:after{ right: 80px; }
-  
   .rules-tab .nav-tabs{display: none;}
   .rules-tab .rules-content .tab-pane .mbtitle {display: block;}
   .rules-tab .rules-content .tab-pane{display: block; opacity: 1;}
   .essayevent-headerbar .navbar { padding: 12px 15px; }
-  
-  }
-
-
-
-
-  /* ---------------------- Homepage ---------------- */
-
-  .banner1{
-    background: url('images/homepage-banner-1-img.png');
-   background-position: relative;
-    background-size: cover;
-    background-repeat: no-repeat;
-    
-    height: 500px;
-    
-  }
-  .banner2{
-    background: url('images/homepage-banner-2-img.png');
-   background-position: relative;
-    background-size: cover;
-    background-repeat: no-repeat;
-    
-    height: 500px;
-    
-  }
-  .banner3{
-    background: url('images/homepage-banner-3-img.png');
-    background-position: relative;
-    background-size: cover;
-    background-repeat: no-repeat;
-    
-    height: 500px;
-    
-  }
- .green-border{
-   border-top: 3px solid #80a23a;
- }
- .pink-border{
-   border-top: 3px solid #da3054;
- }
- .blue-border{
-   border-top: 3px solid #0094ab;
- }
-
-  .slick-dots{
-    bottom: 10px!important;
-  }
-  
-  .child-bcg{
-    background-color: #0094ab;
-    display: inline-block;
-    border-radius: 50%;
-    padding: 35px;
-  }
-  .circle-blue{
-    border: 1px solid #0094ab;
-    border-radius: 50%;
-    display: inline-block;
-    padding: 5px;
-  }
-
-  .vlb {
-    border-left: 1px solid #0094ab;
-    height: 25px;
-    margin-left: 50%;
-  }
-  .hlb {
-    border-bottom: 2px solid #0094ab;
-    width: 35%;
-    margin: 0 auto;
-  }
-  .hlnb {
-    border-bottom: 2px solid #174457;
-    width: 35%;
-    margin: 0 auto;
-    
-  }
-  .women-bcg{
-    background-color: #da3054;
-    display: inline-block;
-    border-radius: 50%;
-    padding: 35px;
-  }
-  .circle-pink{
-    border: 1px solid #da3054;
-    border-radius: 50%;
-    display: inline-block;
-    padding: 5px;
-  }
-  .vlp {
-    border-left: 1px solid #da3054;
-    height: 25px;
-    margin-left: 50%;
-  }
-  .hlp {
-    border-bottom: 2px solid #da3054;
-    width: 35%;
-    margin: 0 auto;
-  }
-  .families-bcg{
-    background-color: #80a23a;
-    display: inline-block;
-    border-radius: 50%;
-    padding: 35px;
-  }
-  .circle-green{
-    border: 1px solid #80a23a;
-    border-radius: 50%;
-    display: inline-block;
-    padding: 5px;
-  }
-  .vlg {
-    border-left: 1px solid #80a23a;
-    height: 25px;
-    margin-left: 50%;
-  }
-  .hlg {
-    border-bottom: 2px solid #80a23a;
-    width: 35%;
-    margin: 0 auto;
-  }
-
-  .hlgr {
-    border-bottom: 2px solid #d5d5d5;
-    width: 35%;
-    margin: 0 auto;
-  }
-
-  .three-img{
-    position: relative;
-  }
-  .three-img img{
-    display: block;
-    height: auto;
-  }
-
-  .three-img-des{
-    position: absolute;
-    bottom: 0px;
-    left: 0px;
-    color: #fff;
-    background-color: #555;
-    opacity: 0.64;
-    padding: 10px 24px;
-  }
-  .feedback-bcg{
-    box-shadow: 0 0 15px 1px rgba(0,0,0,0.07);
-    border-radius: 15px;
-    margin-bottom: 30px;
-    padding: 0px 0px 15px;
-    background-color: #fff;
-}
-/* .feedback-text{
-  padding: 50px;
-} */
- 
-
- .feedback-color{
-  color: #174457;
- }
-
-  .home-btn-bottom{
-       
-  padding: 8px 24px !important;
-  text-align: center;
-  color: #80a23a!important;
-  border-radius: 15px;
-  font-size: 13px;
-  letter-spacing: 0.4px;
-   box-shadow: 0 0 50px #eee;
-
-  }
-
-  .slick-dotted.slick-slider{
-    margin-bottom: 0px;
-  }
-
-
-  .resource-box{
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
-border-radius: 15px;
-background-color: #ffffff;
-padding: 15px;
-height: 100%;
-  }
-
-  .download-res-btn{
-   
-      background: #80a23a!important;
-      padding: 8px 24px !important;
-      text-align: center;
-      color: #fff!important;
-      box-shadow: 0 0 50px #eee;
-      border-radius: 17px;
-      font-size: 15px 25px;
-      letter-spacing: 0.4px;
-      width: 100%;
-  }
-  .involve-banner{
-    background: url('images/involve-banner-img.jpg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100%; 
-  }
-  .impact-banner{
-    background: url('images/child-helpline-day-img.jpg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100%; 
-  }
-
-  .involve-box{
-    padding: 20px;
-    height: 175px;
-  }
-
-.involve-btn{
-  background: #fff!important;
-  padding: 8px 24px !important;
-  text-align: center;
-  color: #80a23a!important;
-  
-  border-radius: 17px;
-  font-size: 15px;
-  letter-spacing: 0.4px;
 }
 
-.odd-halfblock-box{
-  height: 200px;
+.rules-tab .rules-content {background: none!important;}
+
+.rules-tab .nav-tabs .nav-link.active .pink-active {
+  background-color: #da3054!important;
 }
 
-.impact-three-img1{
-  background: url('images/child-rights-club-img.png');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100%;
-}
-.impact-three-img2{
-  background: url('images/a-call-for-hope-img.png');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100%;
-}
-.impact-three-img3{
-  background: url('images/childline-img.png');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100%;
+.rules-tab .nav-tabs .nav-link.active .blue-active  {
+  background-color: #0094ab!important ;
 }
 
-.impact-three-child1{
-  background: url('images/road-towards-education-img.png');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100%;
-  border-top: 4px solid #0094ab;
-}
-
-.impact-three-child2{
-  background: url('images/child-rights-club-img.png');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100%;
-  border-top: 4px solid #0094ab;
-}
-
-.impact-three-child3{
-  background: url('images/helping-mankind-img.png');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100%;
-  border-top: 4px solid #0094ab;
-}
-
-.impact-three-women1{
-  background: url('images/domestic-worker-img.png');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100%;
-  border-top: 4px solid #da3054;
-}
-
-.impact-three-women2{
-  background: url('images/rural-women-journey-img.png');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100%;
-  border-top: 4px solid #da3054;
-}
-
-.impact-three-people1{
-  background: url('images/power-of-awareness-img.png');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100%;
-  border-top: 4px solid #80a23a;
-}
-
-.impact-three-people2{
-  background: url('images/unemployed-to-facilitator-img.png');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100%;
-  border-top: 4px solid #80a23a;
-}
-
-.suplement{
-  background: url('images/Supplementary-Education-Centres-img.png');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100%;
-}
-
-.health-clinic{
-  background: url('images/health-clinic-img.png');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100%;
-}
-
-.impact-hover:hover{
-  background-color: #555555;
-opacity: 0.75;
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+  background-color: transparent;
 }
 
 
-/* ABout us */
+.nav-tabs .nav-item {
+  margin-bottom: 0px;
+}
 
-.rules-tab .nav-tabs .nav-link.active { color: #333333; background-color: #EFF8FF; border-color: #eff8ff #eff8ff #eff8ff; }
-.rules-tab  .nav-tabs .nav-link { padding: 18px 0px 15px; font-size: 19px; font-family: gotham-medium; color: #333;  }
+.rules-tab .nav-tabs .nav-link.active { color: #fff; font-weight: bold; background-color: none;}
+.rules-tab  .nav-tabs .nav-link { padding: 18px 0px 15px; font-size: 19px; color: #eee;  }
 .rules-tab .nav-tabs { border-bottom: 0px solid #dee2e6; }
 .rules-tab .nav-tabs .nav-link:hover { border:1px solid transparent; }
-.rules-tab .rules-content{ background: #eff8ff; padding: 20px 25px; }
+.rules-tab .rules-content{ background: #eff8ff; padding: 20px 0px; }
 .rules-tab .rules-content .tab-pane { font-size: 15px; line-height: 26px; }
 .rules-tab .rules-content .tab-pane ol.essay-event-info-list li{ margin-bottom: 5px; }
-.rules-tab .rules-content .tab-pane ol.essay-event-info-list a{text-decoration: none;}                                                                            
+.rules-tab .rules-content .tab-pane ol.essay-event-info-list a{text-decoration: none;}    
+
+
 .nav-tabs{
   border-bottom: 0px!important;
 }
@@ -953,12 +798,29 @@ opacity: 0.75;
   .rules-tab .nav-tabs{display: none;}
   .rules-tab .rules-content .tab-pane .mbtitle {display: block;}
   .rules-tab .rules-content .tab-pane{display: block; opacity: 1;}
-  
-  
-  }
+   
+}
 
   .migrant-box{
     
     background-color: #fff;
     height: 100%;
   }
+
+  /* .pink-ellipse{
+    background: url('images/pink-ellipse-img.png');
+  } */
+
+ 
+  .impact-three-box{
+box-shadow: 0 10px 6px rgba(0, 0, 0, 0.16);
+border-radius: 24px;
+background-color: rgba(218,48,84,0.3);
+padding: 10px 0;
+  }
+
+  .vlpfull {
+    border-left: 1px solid #da3054;
+    height: 100px;
+    margin-left: 50%;
+}
