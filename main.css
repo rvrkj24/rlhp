@@ -257,6 +257,10 @@ background-color: #da3054;
   
 }
 
+.event-box-height{
+  height: 100%;
+}
+
 
 
 .child-labor, .state-seminar{
@@ -277,6 +281,11 @@ background-color: #da3054;
   background-color: #da3054;;
 }
 .womens-day{
+  
+  background-color: #da3054;
+}
+
+.children-day{
   
   background-color: #0094ab;
 }
