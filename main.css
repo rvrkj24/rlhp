@@ -325,7 +325,7 @@ background-color: #da3054;
 }
 .pink-full-btn{
   background: #da3054;
-  padding: 8px 10px !important;
+  padding: 8px 18px !important;
   text-align: center;
   color: #fff!important;
   box-shadow: 0 0 50px #eee;
@@ -334,11 +334,10 @@ background-color: #da3054;
   letter-spacing: 0.4px;
 }
 .pink-half-btn{
-  background: #fff!important;
-  padding: 8px 10px !important;
+  padding: 8px 18px !important;
   text-align: center;
   border :1px solid #da3054;
-  color: #da3054;
+  color: #da3054!important;
   box-shadow: 0 0 50px #eee;
   border-radius: 17px;
   font-size: 15px;
@@ -373,6 +372,8 @@ background-color: #da3054;
  background-color: #f9f8f8;
 
 }
+
+
 
 
 
@@ -547,10 +548,10 @@ color: #174457;
 
 .home-btn-bottom{
      
-padding: 8px 24px !important;
+padding: 20px 20px !important;
 text-align: center;
 color: #80a23a!important;
-border-radius: 15px;
+border-radius: 50px;
 font-size: 13px;
 letter-spacing: 0.4px;
  box-shadow: 0 0 50px #eee;
@@ -599,7 +600,7 @@ height: 100%;
 
 .involve-box{
   padding: 20px;
-  height: 175px;
+  height: 200px;
 }
 
 .involve-btn{
