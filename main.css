@@ -456,7 +456,7 @@ background-color: #da3054;
   background-color: #0094ab;
   display: inline-block;
   border-radius: 50%;
-  padding: 35px;
+  padding: 40px 15px;
 }
 .circle-blue{
   border: 1px solid #0094ab;
@@ -485,7 +485,7 @@ background-color: #da3054;
   background-color: #da3054;
   display: inline-block;
   border-radius: 50%;
-  padding: 35px;
+  padding: 40px 15px;
 }
 .circle-pink{
   border: 1px solid #da3054;
@@ -507,7 +507,7 @@ background-color: #da3054;
   background-color: #80a23a;
   display: inline-block;
   border-radius: 50%;
-  padding: 35px;
+  padding: 40px 25px;
 }
 .circle-green{
   border: 1px solid #80a23a;
