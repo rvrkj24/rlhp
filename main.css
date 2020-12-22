@@ -296,21 +296,25 @@ background-color: #da3054;
 
 /* --- Donation page ---- */
 
+
 .donate-btn {
-  background: #fff!important;
+  background: #ffffff;
+  color: #80a23a!important;
   padding: 8px 24px !important;
   text-align: center;
-  color: #80a23a!important;
   box-shadow: 0 0 50px #eee;
   border-radius: 17px;
   font-size: 15px;
   letter-spacing: 0.4px;
   
-}
+ }
 
-.donate-btn a:hover{
+ .donate-btn a:hover{
   color: #80a23a!important;
-}
+ }
+
+
+
 
 
 .national-btn{
@@ -861,3 +865,9 @@ padding: 10px 0;
   height: 100px;
   margin-left: 50%;
 }
+
+.tab-content, .slick-next:before, .slick-prev:before{
+  color: #174457;
+  }
+
+  
